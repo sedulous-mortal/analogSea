@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>AnalogSea</title>
+    <meta name="description" content="This is the login page for Analog Sea: cloud computing at its best.">
+    <meta name="author" content="Alison Stuart">
+
+    <!--reset-->
+    <link href="reset.css" rel="stylesheet">
+
+    <!--font-->
+    <link href='https://fonts.googleapis.com/css?family=Antic+Didone' rel='stylesheet' type='text/css'>
+    <!--specific css page-->
+    <link href="main.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <section class="body">
+        <img class="logo" src="analog_sea_logo.png">
+
+        <div class="center_box">
+            <h1>Sign up</h1>
+            <form class='form' action="/signup/" method='post'>
+                <label for="email">Email</label>
+                <input type="email" name='email' id='email' placeholder='foo@bar.com' required />
+                <label for="password">Password</label>
+                <input type="password" name='password' id='password' placeholder='1234passw0rd' required />
+                <button type='signup'>Sign up</button>
+            </form>
+            <p><a href="/forgot-password/new">Forgot password?</a></p>
+        </div>
+    </section>
+</body>
+<footer>
+    <p>Already have an account? <a class="footer" href="/login">Login</a></p>
+</footer>
+
+</html>
